@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="icon" type="image/x-icon" href="images/nn.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans leading-relaxed">
+
+    <header class="flex justify-between items-center mx-8 my-6">
+        <a href="index.html">
+            <div class="title-content">
+                <h2 class="text-green-700 text-5xl">Nutrion<span class="text-black">Nexus</span></h2>
+                <p class="text-black font-bold text-lg">Expert advice & dietitian-approved recipes</p>
+            </div>
+        </a>
+        <div class="flex items-center">
+            <div class="relative">
+                <input type="text" placeholder="Dietitian-approved recipes and advice" id="input" class="h-12 w-64 p-2 bg-black text-white placeholder-gray-400">
+                <i class="fa-solid fa-magnifying-glass absolute right-2 top-2 text-white"></i>
+            </div>
+            <i class="fa-brands fa-facebook-f ml-4 text-white text-xl"></i>
+            <i class="fa-brands fa-instagram ml-4 text-white text-xl"></i>
+            <a href="login.html"><button class="ml-8 bg-green-700 text-white font-bold py-2 px-4 rounded">Subscribe</button></a>
+        </div>
+    </header>
+
+    <nav class="mt-8 bg-blue-100 p-4">
+        <div class="flex space-x-4">
+            <a href="index.html" class="text-black font-bold"> <i class="fa-solid fa-house"></i> </a>
+            <a href="eadvice.html" class="text-black font-bold">Expert Advice</a>
+            <a href="recipies.html" class="text-black font-bold">Recipes</a>
+            <a href="#" class="text-black font-bold">Meal Plans</a>
+            <a href="#" class="text-black font-bold">Product Plans</a>
+            <a href="#" class="text-black font-bold">Product Award</a>
+            <a href="eadvice.html" class="text-black font-bold">User  Guide</a>
+            <a href="#" class="text-black font-bold">Latest Podcast</a>
+            <a href="#" class="text-black font-bold">Favourites</a>
+            <a href="#" class="text-black font-bold">Digital Issue</a>
+            <a href="#" class="text-black font-bold">Store</a>
+            <button class="bg-gray-300 text-gray-600 font-bold py-2 px-4 rounded"><i class="fa-solid fa-user"></i> Login</button>
+        </div>
+    </nav>
+
+    <section class="min-h-screen bg-gray-200 flex justify-center items-center">
+        <div class="login-container bg-white p-10 rounded-lg shadow-md w-80 text-center">
+            <h1 class="text-gray-800 text-2xl mb-6">Log in to your account</h1>
+
+            <div class="input-group mb-4 text-left">
+                <label for="username" class="text-gray-600 text-sm mb-1">Username</label>
+                <input type="text" id="username" name="username" class="w-full p-2 border border-gray-300 rounded">
+            </div>
+
+            <div class="input-group mb-4 text-left">
+                <label for="password" class="text-gray-600 text-sm mb-1">Password</label>
+                <input type="password" id="password" name="password" class="w-full p-2 border border-gray-300 rounded">
+            </div>
+
+            <div class="border-t border-gray-300 my-4"></div>
+
+            <button class="bg-green-600 text-white py-2 px-4 rounded w-full">LOG IN</button>
+
+            <div class="flex justify-between items-center text-gray-600 text-sm mb-4">
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> Remember Me
+                </label>
+                <a href="#" class="hover:underline">Lost your password?</a>
+            </div>
+
+            <div class="mt-4 border-t border-gray-300 pt-4">
+                <p class="text-gray-600">Not a member yet?</p>
+                <button class="bg-gray-200 text-gray-800 py-2 px-4 rounded w-full"><a href="register.html">SUBSCRIBE NOW</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-200 py-10">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-5">
+            <div>
+                <h3 class="font-bold text-lg mb-4">About us</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Meet the team</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Contact us</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Media kit and Advertising</a></li>
+                    <li><div class="bg-green-700 text-white py-1 px-2 rounded inline-block mt-2">Healthy Food Guide Pro</div></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-lg mb-4">Tips for using the website</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Meal planning and shopping lists</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Our recipes explained</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Workplace wellbeing</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-lg mb-4">Terms of use</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Privacy policy</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Cookie Policy</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold text-lg mb-4">Get Newsletter</h3>
+                <div class="flex">
+                    <input type="email" placeholder="Enter your email" class="border border-gray-300 p-2 rounded-l-md w-full">
+                    <a href="register.html"><button class="bg-green-700 text-white py-2 px-4 rounded-r-md">Sign up</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-300 mt-8 pt-4 text-center">
+            <div class="text-gray-600">© 2025 Healthy Food Guide. All Rights Reserved.</div>
+        </div>
+    </footer>
+</body>
+
+</html>

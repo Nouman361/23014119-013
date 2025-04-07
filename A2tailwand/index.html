@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food Guide - Delicious recipes and expert diet advice</title>
+    <link rel="icon" type="image/x-icon" href="images/nn.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: 'rgb(19, 133, 19)',
+                        primaryDark: 'darkgreen',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50">
+    <header class="flex mt-5 ml-8">
+        <a href="index.html">
+            <div>
+                <h2 class="text-4xl font-bold text-primary font-sans">Nutrion<span class="text-black">Nexus</span></h2>
+                <p class="text-xl text-black font-bold">Expert advice & dietitian-approved recipes</p>
+            </div>
+        </a>
+        <div class="flex flex-row ml-52 mt-8">
+            <div class="h-8 bg-black">
+                <input type="text" placeholder="Dietitian-approved recipes and advice" id="input" 
+                    class="w-68 h-16 p-2 placeholder-gray-800 placeholder-opacity-100 placeholder-font-bold text-sm">
+                <i class="fa-solid fa-magnifying-glass relative -right-4 text-white text-xl"></i>
+            </div>
+            <i class="fa-brands fa-facebook-f ml-7 mt-4 text-xl"></i>
+            <i class="fa-brands fa-instagram ml-7 mt-4 text-xl"></i>
+            <a href="login.html"><button class="ml-8 w-44 h-12 bg-primary text-white font-bold text-base">Subscribe</button></a>
+        </div>
+    </header>
+    <nav class="mt-8 bg-blue-50 p-5">
+        <a href="index.html" class="no-underline text-black font-sans font-bold m-2"><i class="fa-solid fa-house"></i></a>
+        <a href="eadvice.html" class="no-underline text-black font-sans font-bold m-2">Expert Advice</a>
+        <a href="recipies.html" class="no-underline text-black font-sans font-bold m-2">Recipes</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Meal Plans</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Product Plans</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Product Award</a>
+        <a href="eadvice.html" class="no-underline text-black font-sans font-bold m-2">User Guide</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Latest Podcast</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Favourites</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Digital Issue</a>
+        <a href="#" class="no-underline text-black font-sans font-bold m-2">Store</a>
+        <button class="text-gray-500 w-20 bg-blue-50"><a href="login.html" class="no-underline"><i class="fa-solid fa-user"></i>Login</a></button>
+    </nav>
+    
+    <section class="p-8">
+        <div class="text-2xl font-bold mb-5">Getting healthy starts here...</div>
+    
+        <div class="flex gap-5 mb-8">
+            <div class="font-bold text-gray-600">All</div>
+            <div class="font-bold text-gray-600">Recipes</div>
+            <div class="font-bold text-gray-600">Advice</div>
+        </div>
+    
+        <div class="text-lg font-bold mb-4 uppercase">Popular Recipes</div>
+    
+        <div class="flex flex-wrap gap-5 mt-5">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/4 transition-transform duration-200 hover:scale-105">
+                <img src="images/Vietnamese Fish Cakes.jpeg" alt="Vietnamese Fish Cakes" class="w-full h-auto">
+                <h3 class="text-xl m-2">Vietnamese Fish Cakes</h3>
+                <p class="text-base m-2 text-gray-600">A delicious and healthy dish made with fresh fish and herbs.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/4 transition-transform duration-200 hover:scale-105">
+                <img src="images/Quinoa Salad.jpeg" alt="Quinoa Salad" class="w-full h-auto">
+                <h3 class="text-xl m-2">Quinoa Salad</h3>
+                <p class="text-base m-2 text-gray-600">A refreshing salad packed with protein and flavor.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/4 transition-transform duration-200 hover:scale-105">
+                <img src="images/Avocado Toast.jpeg" alt="Avocado Toast" class="w-full h-auto">
+                <h3 class="text-xl m-2">Avocado Toast</h3>
+                <p class="text-base m-2 text-gray-600">Simple and nutritious, perfect for breakfast or a snack.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/4 transition-transform duration-200 hover:scale-105">
+                <img src="images/Grilled Chicken with Veggies.jpeg" alt="Grilled Chicken" class="w-full h-auto">
+                <h3 class="text-xl m-2">Grilled Chicken with Veggies</h3>
+                <p class="text-base m-2 text-gray-600">A healthy and satisfying meal with grilled chicken and seasonal vegetables.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Recipes Section -->
+    <section class="bg-cyan-50 p-5 my-5">
+        <h2 class="text-2xl mb-3">Featured Recipes</h2>
+        <div class="flex flex-wrap gap-5 mt-5">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/3 transition-transform duration-200 hover:scale-105">
+                <img src="images/Healthy Smoothie.jpeg" alt="Healthy Smoothie" class="w-full h-auto">
+                <h3 class="text-xl m-2">Healthy Smoothie</h3>
+                <p class="text-base m-2 text-gray-600">A delicious blend of fruits and vegetables.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/3 transition-transform duration-200 hover:scale-105">
+                <img src="images/Chickpea Salad.jpeg" alt="Chickpea Salad" class="w-full h-auto">
+                <h3 class="text-xl m-2">Chickpea Salad</h3>
+                <p class="text-base m-2 text-gray-600">A refreshing salad packed with protein.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden w-1/3 transition-transform duration-200 hover:scale-105">
+                <img src="images/Oven-Baked Salmon.jpeg" alt="Oven-Baked Salmon" class="w-full h-auto">
+                <h3 class="text-xl m-2">Oven-Baked Salmon</h3>
+                <p class="text-base m-2 text-gray-600">Easy and healthy salmon recipe.</p>
+                <button class="bg-primary text-white border-none py-2 px-4 rounded m-2 cursor-pointer transition-colors duration-300 hover:bg-primaryDark">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-orange-50 p-5 my-5">
+        <h2 class="text-2xl">What Our Users Say</h2>
+        <div class="italic my-3">
+            <p>"This guide has transformed my eating habits!" - Sarah</p>
+        </div>
+        <div class="italic my-3">
+            <p>"I love the variety of recipes available!" - John</p>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-green-100 p-5 text-center my-5">
+        <h2 class="text-2xl mb-3">Join Our Community</h2>
+        <p class="mb-3">Subscribe to our newsletter for the latest recipes and tips!</p>
+        <a href="register.html"><button class="bg-primary text-white py-2 px-4 rounded cursor-pointer transition-colors duration-300 hover:bg-primaryDark">Sign Up</button></a>
+    </section>
+
+    <footer class="bg-gray-100 py-10">
+        <div class="grid grid-cols-4 gap-8 max-w-6xl mx-auto px-5">
+            <div>
+                <h3 class="text-base mb-4 text-gray-800">About us</h3>
+                <ul class="list-none p-0 m-0">
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Meet the team</a></li>
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Contact us</a></li>
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Media kit and Advertising</a></li>
+                    <li>
+                        <div class="bg-green-700 text-white py-1 px-2 rounded text-xs inline-block mt-3">Healthy Food Guide Pro</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-base mb-4 text-gray-800">Tips for using the website</h3>
+                <ul class="list-none p-0 m-0">
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Meal planning and shopping lists</a></li>
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Our recipes explained</a></li>
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Workplace wellbeing</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-base mb-4 text-gray-800">Terms of use</h3>
+                <ul class="list-none p-0 m-0">
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Privacy policy</a></li>
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">Cookie Policy</a></li>
+                    <li class="mb-2"><a href="#" class="no-underline text-gray-600 hover:text-green-700">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-base mb-4 text-gray-800">Get Newsletter</h3>
+                <div class="flex gap-3">
+                    <input type="email" placeholder="Enter your email" class="py-2 px-3 border border-gray-300 rounded">
+                    <a href="register.html"><button class="bg-green-700 text-white py-2 px-4 rounded cursor-pointer">Sign up</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-5 flex justify-between items-center border-t border-gray-300 pt-5 mt-8">
+            <div class="text-gray-600 text-sm">© 2025 Healthy Food Guide. All Rights Reserved.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
