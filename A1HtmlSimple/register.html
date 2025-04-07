@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register </title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="icon" type="image/x-icon" href="images/nn.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><div class="title-content">
+            <h2>Nutrion<span>Nexus</span></h2>
+            <p>Expert advice & dietitian-approved recipes</p>
+
+        </div>
+        </a>
+        <div class="header-icons">
+            <div class="search-bar">
+                <input type="text" placeholder="Dietitian-approved recipes and advice" id="input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <button class="btn">Subscribe</button>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        <a href="eadvice.html">Expert Advice</a>
+        <a href="recipies.html">Recipes</a>
+        <a href="#">Meal Plans</a>
+        <a href="#">Product Plans</a>
+        <a href="#">Product Award</a>
+        <a href="eadvice.html">User Guide</a>
+        <a href="#">Latest Podcast</a>
+        <a href="#">Favourites</a>
+        <a href="#">Digital Issue</a>
+        <a href="#">Store</a>
+        <button class="login-btn"><i class="fa-solid fa-user"></i>Login</button>
+    </nav>
+    <section>
+        <div class="subscription-container">
+            <h1>Select Subscription Term</h1>
+            
+            <div class="subscription-option">
+                <div class="subscription-title">Web + Digital Monthly Subscription</div>
+                <div class="subscription-price">USD$6.99 / 1 Month</div>
+            </div>
+            
+            <div class="subscription-option popular">
+                <div class="popular-tag">MOST POPULAR</div>
+                <div class="subscription-title">Web + Digital 1 Year Subscription</div>
+                <div class="subscription-price">USD$69.90 / 1 Year</div>
+                <div class="subscription-savings">SAVE 17%</div>
+            </div>
+            
+            <div class="subscription-option">
+                <div class="subscription-title">Web + Digital 2 Year Subscription</div>
+                <div class="subscription-price">USD$129.00 / 2 Years</div>
+                <div class="subscription-savings">SAVE 23%</div>
+            </div>
+            
+            <div class="coupon-section">
+                <span>I have a coupon code 😊️</span>
+                <input type="text" class="coupon-input" placeholder="Enter code">
+                <button class="go-button">Go</button>
+            </div>
+            
+            <h1>My Details</h1>
+            
+            <div class="form-group">
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-col">
+                    <label for="password" class="required">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="form-col">
+                    <label for="password-again" class="required">Password Again</label>
+                    <input type="password" id="password-again" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-col">
+                    <label for="first-name" class="required">First Name</label>
+                    <input type="text" id="first-name" required>
+                </div>
+                <div class="form-col">
+                    <label for="last-name" class="required">Last Name</label>
+                    <input type="text" id="last-name" required>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <h1>Review Order - Payment</h1>
+            
+            <table class="order-table">
+                <thead>
+                    <tr>
+                        <th>Membership</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web + Digital 1 Year Subscription</td>
+                        <td>USD$69.90</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="order-summary">
+                <div class="order-item total">
+                    <span>Total Today</span>
+                    <span>USD$69.90</span>
+                </div>
+                <div class="order-item recurring">
+                    <span>Total Recurring Per Year</span>
+                    <span>USD$69.90</span>
+                </div>
+                <div class="order-item recurring">
+                    <span>Next Renewal Due</span>
+                    <span>April 2, 2026</span>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="payment-methods">
+                <h2>Choose a way to pay</h2>
+                <label class="payment-option">
+                    <input type="radio" name="payment" checked>
+                    Card
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment">
+                    PayPal
+                </label>
+            </div>
+            
+            <div class="captcha-section">
+                <div class="captcha-box">
+                    <input type="checkbox" id="robot">
+                    <label for="robot">I'm not a robot</label>
+                </div>
+                <div class="captcha-box">
+                    <input type="checkbox" id="recaptcha">
+                    <label for="recaptcha">reCAPTCHA</label>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Privacy - Terms</label>
+                </div>
+            </div>
+            
+            <button class="register-button">REGISTER</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="#">Meet the team</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Media kit and Advertising</a></li>
+                    <li>
+                        <div class="pro-badge">Healthy Food Guide Pro</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Tips for using the website</h3>
+                <ul>
+                    <li><a href="#">Meal planning and shopping lists</a></li>
+                    <li><a href="#">Our recipes explained</a></li>
+                    <li><a href="#">Workplace wellbeing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Terms of use</h3>
+                <ul>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Get Newsletter</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <a href="register.html"><button>Sign up</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">© 2025 Healthy Food Guide. All Rights Reserved.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
