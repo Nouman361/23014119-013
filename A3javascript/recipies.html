@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food Guide - Recipes and Meal Plans</title>
+    <link rel="icon" type="image/x-icon" href="images/nn.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="path/to/scripts.js"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <header class="flex justify-between items-center mx-8 my-6">
+        <a href="index.html">
+            <div class="title-content">
+                <h2 class="text-green-700 text-5xl">Nutrion<span class="text-black">Nexus</span></h2>
+                <p class="text-black font-bold text-lg">Expert advice & dietitian-approved recipes</p>
+            </div>
+        </a>
+        <div class="flex items-center">
+            <div class="relative">
+                <input type="text" placeholder="Search for recipes and meal plans" id="input" class="h-12 w-64 p-2 bg-black text-white placeholder-gray-400">
+                <i class="fa-solid fa-magnifying-glass absolute right-2 top-2 text-white"></i>
+            </div>
+            <i class="fa-brands fa-facebook-f ml-4 text-white text-xl"></i>
+            <i class="fa-brands fa-instagram ml-4 text-white text-xl"></i>
+            <a href="login.html"><button class="ml-8 bg-green-700 text-white font-bold py-2 px-4 rounded">Subscribe</button></a>
+        </div>
+    </header>
+
+    <nav class="mt-8 bg-blue-100 p-4">
+        <div class="flex space-x-4">
+            <a href="index.html" class="text-black font-bold"> <i class="fa-solid fa-house"></i> </a>
+            <a href="index.html" class="text-black font-bold">Home</a>
+            <a href="recipies.html" class="text-black font-bold">Recipes</a>
+            <a href="#" class="text-black font-bold">Meal Plans</a>
+            <a href="eadvice.html" class="text-black font-bold">Expert Advice</a>
+            <a href="eadvice.html" class="text-black font-bold">User  Guide</a>
+            <a href="#" class="text-black font-bold">Favourites</a>
+            <button class="bg-gray-300 text-gray-600 font-bold py-2 px-4 rounded"><a href="login.html"><i class="fa-solid fa-user"></i> Login</a></button>
+        </div>
+    </nav>
+
+    <section class="p-8">
+        <div class="text-2xl font-bold mb-4">Healthy Eating Starts Here...</div>
+
+        <div class="flex gap-4 mb-6">
+            <div class="font-bold text-gray-700">All Recipes</div>
+            <div class="font-bold text-gray-700">Meal Plans</div>
+            <div class="font-bold text-gray-700">Advice</div>
+        </div>
+
+        <div class="text-xl font-bold mb-4">Popular Recipes</div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Vietnamese Fish Cakes.jpeg" alt="Vietnamese Fish Cakes" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Vietnamese Fish Cakes</h3>
+                <p class="p-4 text-gray-600">A delicious and healthy dish made with fresh fish and herbs.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Quinoa Salad.jpeg" alt="Quinoa Salad" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Quinoa Salad</h3>
+                <p class="p-4 text-gray-600">A refreshing salad packed with protein and flavor.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Avocado Toast.jpeg" alt="Avocado Toast" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Avocado Toast</h3>
+                <p class="p-4 text-gray-600">Simple and nutritious, perfect for breakfast or a snack.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Grilled Chicken with Veggies.jpeg" alt="Grilled Chicken" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Grilled Chicken with Veggies</h3>
+                <p class="p-4 text-gray-600">A healthy and satisfying meal with grilled chicken and seasonal vegetables.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-50 p-8">
+        <h2 class="text-xl font-bold mb-4">Featured Recipes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Healthy Smoothie.jpeg" alt="Healthy Smoothie" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Healthy Smoothie</h3>
+                <p class="p-4 text-gray-600">A delicious blend of fruits and vegetables.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Chickpea Salad.jpeg" alt="Chickpea Salad" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Chickpea Salad</h3>
+                <p class="p-4 text-gray-600">A refreshing salad packed with protein.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="images/Oven-Baked Salmon.jpeg" alt="Oven-Baked Salmon" class="w-full h-48 object-cover">
+                <h3 class="text-lg font-bold p-4">Oven-Baked Salmon</h3>
+                <p class="p-4 text-gray-600">Easy and healthy salmon recipe.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mb-4 rounded w-full">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h2 class="text-xl font-bold mb-4">Weekly Meal Plans</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-bold">Plan A</h3>
+                <p class="text-gray-600">A balanced meal plan focusing on whole foods.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mt-2 rounded w-full">View Plan</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-bold">Plan B</h3>
+                <p class="text-gray-600">A vegetarian meal plan rich in nutrients.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mt-2 rounded w-full">View Plan</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-bold">Plan C</h3>
+                <p class="text-gray-600">A low-carb meal plan for weight management.</p>
+                <button class="bg-green-700 text-white py-2 px-4 mt-2 rounded w-full">View Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-200 py-10">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-5">
+            <div>
+                <h3 class="font-bold text-lg mb-4">About Us</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Our Story</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Team</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-4">Recipes</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Breakfast</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Lunch</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Dinner</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-4">Meal Plans</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Weekly Plans</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Monthly Plans</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-4">Contact</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Support</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex justify-between items-center border-t border-gray-300 mt-8 pt-4 px-5">
+            <div class="flex">
+                <input type="email" placeholder="Subscribe to our newsletter" class="border border-gray-300 p-2 rounded-l-md w-1/2">
+                <a href="login.html"><button class="bg-green-700 text-white py-2 px-4 rounded-r-md">Subscribe</button></a>
+            </div>
+            <div class="text-gray-600">&copy; 2023 Nutrition Nexus. All rights reserved.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
